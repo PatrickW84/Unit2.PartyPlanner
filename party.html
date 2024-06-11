@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Party</title>
+    <link rel="stylesheet" href="party.css"></link>
+    <script defer src="party.js"></script>
+    <!--defer = script is loaded after document is parsed but before DOMContentLoaded // or put script at end of-->
+  </head>
+  <body>
+    <h1>Events</h1>
+    <form id="addEvent">
+      <label
+        >Name
+        <input type="text" name="name"></label>
+      
+      <label>Description
+        <input type="text" name="description"></label>
+     
+      <label>Date
+        <input type= "date" name="date"></label>
+      
+      <label
+      >Address
+      <input type="text" name="location"></label>
+    
+      <button>Add Event</button>
+   
+    <!-- <ul id="guests"></ul>
+    <h1>Guests</h1>
+    <form id="addGuest">
+      <label
+        >Name
+        <input type="text" name="name" />
+      </label>
+      <label
+        >Email
+        <input type="email" name="email" />
+      </label>
+      <label
+        >Phone
+        <input type="text" name="phone" />
+      </label>
+      <button>Add Guest</button> -->
+  </form>
+    <!-- <ul id="guests"></ul> -->
+    <ul id="events"></ul>
+  </body>
+</html>
